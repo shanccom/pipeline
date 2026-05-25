@@ -51,7 +51,12 @@ procesador-distribuido/
    mvn -q -DskipTests package
    ```
 
-2. **Ejecutar servicios (terminales separadas)**
+2. **Ejecutar interfaz**
+   ```bash
+   java -cp target/classes PipelineInterface
+   ```
+
+3. **Opcional: Ejecutar servicios (terminales separadas)**
    ```bash
    java -cp target/classes ReporteService
    java -cp target/classes TransformadorService
