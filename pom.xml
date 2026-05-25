@@ -39,6 +39,7 @@
                                 <source>validador-service</source>
                                 <source>transformador-service</source>
                                 <source>reporte-service</source>
+                                <source>interface</source>
                             </sources>
                         </configuration>
                     </execution>
