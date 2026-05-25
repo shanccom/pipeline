@@ -59,10 +59,6 @@ procesador-distribuido/
    java -cp target/classes LectorService
    java -cp target/classes Gateway
    ```
-   Para iniciar el flujo envía el comando:
-   ```bash
-   printf "START\n" | nc 127.0.0.1 6000
-   ```
 
 ## Validaciones
 - Promedio entre **0 y 20**
